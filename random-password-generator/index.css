@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+    padding: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+span {
+    font-weight: bold;
+    color: #4ADF86;
+}
+h2 {
+    font-size: 40px; 
+    font-weight: bold;
+    margin-bottom: 0;
+}
+p {
+    margin-bottom: 2.5rem;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.01em;
+    color: lightgrey;
+}
+
+.box {
+    margin: 25px auto;
+    background: #1F2937;
+    padding: 40px 50px;
+    color: white;
+}
+
+
+.heading {
+    width: 354px;
+}
+
+button {
+    color: white;
+    background: #10B981;
+    padding: 9px 17px 9px 15px;
+    border: 0;
+    border-radius: 8px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+hr {
+    margin-top: 35px;
+    border: 1px solid #2F3E53;
+}
+
+.pass-label:hover {
+    background: #10B981;
+    color: white;
+}
+
+.pass-label {
+    margin-top: 35px;
+    background: #273549;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    display: inline-block;
+}
+
+.pass {
+    position: relative;
+    top:-1px;
+    text-align: center;
+    justify-content: center;
+height: 32px;
+font-size: 16px;
+font-weight: 500;
+
+/* identical to box height, or 200% */
+text-align: center;
+
+color: #55F991;
+
+
+}
+
+.pass-container {
+    display: flex;
+    justify-content: space-between
+}
